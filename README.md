@@ -46,57 +46,68 @@ The goal of this project is to provide BA English students with a comprehensive,
 
 ### 1. **All Subjects Screen**
 
-![All Subjects Screen](./screenshots/screenshot1.png)  
+!![one](https://github.com/user-attachments/assets/d94ef95b-537d-440d-969f-e6f285c69a2c)
 *All Subjects Screen - Displays a list of all subjects for both 5th and 6th semesters, helping students easily navigate through the course material.*
 
 ---
 
 ### 2. **Dynamic Video Lessons**
 
-![Dynamic Video Lessons](./screenshots/screenshot2.png)  
+![two](https://github.com/user-attachments/assets/1d5d1172-0326-485b-bc18-f1f7c73d3298)
+ 
 *Dynamic Video Lessons - Features video content for each unit to help students understand complex topics in an interactive and engaging manner.*
 
 ---
 
 ### 3. **Bookmark Option**
 
-![Bookmark Option](./screenshots/screenshot3.png)  
+![three](https://github.com/user-attachments/assets/5dcade97-8688-4c3c-8507-e97a2a94a5a4)
+ 
 *Bookmark Option - Allows students to mark their favorite or important resources to revisit later.*
 
 ---
 
 ### 4. **Bookmark View Page**
 
-![Bookmark View Page](./screenshots/screenshot4.png)  
+![four](https://github.com/user-attachments/assets/6cd933bd-c38a-482f-b2dd-1291a94ec582)
+
 *Bookmark View Page - Displays all bookmarked resources for easy access, allowing students to track the content they found most useful.*
 
 ---
 
 ### 5. **Quiz Page**
 
-![Quiz Page](./screenshots/screenshot![Screenshot (119)](https://github.com/user-attachments/assets/aac97db1-fdbd-41ba-9296-85b68d9eeeb8)
-5.png)  
+![five](https://github.com/user-attachments/assets/4093e241-1efd-4a92-a6e9-ce18ee02442a)
+
 *Quiz Page - Interactive quizzes for each unit, designed to test students' understanding of the material and reinforce learning.*
 
 ---
 
 ### 6. **Mark View Page**
 
-![Mark View Page](./screenshots/screenshot6.png)  
+![six](https://github.com/user-attachments/assets/68c7fdd4-51f6-4250-8694-c32948b208fd)
+
 *Mark View Page - Allows students to view their quiz results and track their progress over time.*
 
 ---
 
 ### 7. **Upload Admin Page**
 
-![Upload Admin Page](./screenshots/screenshot7.png)  
+![eight](https://github.com/user-attachments/assets/f2a3bc97-759f-4af4-ac80-56c3e009a548)
+
 *Upload Admin Page - The admin panel for uploading and managing educational resources like videos, quizzes, and answers.*
+---
+
+### 8. **Student Page**
+
+![seven](https://github.com/user-attachments/assets/3e9fef25-cb4c-4f40-bdfd-203352c7282d)
 
 ---
 
-### 8. **Mobile Responsive View**
+### 9. **Mobile Responsive View**
 
-![Mobile Responsive View](./screenshots/screenshot8.png)  
+![nine](https://github.com/user-attachments/assets/d86e8daa-a170-4240-9eee-3daa34d8c47a)
+
 *Mobile View - The app is fully responsive and optimized for mobile devices, ensuring a seamless experience on smaller screens.*
 
 ## 📫 Connect with Me  
