@@ -1,0 +1,218 @@
+/* General Page Styles */
+.motivation-page {
+  background: linear-gradient(135deg, #f3f4f6, #e0e6f3);
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  padding: 50px 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.motivation-header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #3498db;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.motivation-header h1:hover {
+  color: #2980b9;
+}
+
+.motivation-header p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-bottom: 40px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.motivation-body {
+  background: #fff;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transform: scale(0.98);
+  transition: transform 0.3s ease;
+}
+
+.motivation-body:hover {
+  transform: scale(1);
+}
+
+.motivation-body h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.motivation-section {
+  margin-bottom: 40px;
+  padding: 15px;
+  border-radius: 8px;
+  background: #ecf0f1;
+  transition: background 0.3s ease;
+}
+
+.motivation-section:hover {
+  background: #dfe6e9;
+}
+
+.motivation-body h3 {
+  font-size: 1.8rem;
+  color: #2980b9;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+}
+
+.motivation-body h3:hover {
+  color: #3498db;
+}
+
+.motivation-body p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.motivation-conclusion {
+  margin-top: 40px;
+}
+
+.motivation-conclusion h2 {
+  font-size: 2.2rem;
+  color: #3498db;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.motivation-conclusion p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-top: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Mobile Devices */
+@media screen and (max-width: 767px) {
+  .motivation-page {
+    padding: 30px 10px;
+  }
+
+  .motivation-header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+
+  .motivation-header p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .motivation-body {
+    width: 100%;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+
+  .motivation-body h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .motivation-body h3 {
+    font-size: 1.6rem;
+  }
+
+  .motivation-body p {
+    font-size: 1rem;
+  }
+
+  .motivation-conclusion h2 {
+    font-size: 1.8rem;
+  }
+
+  .motivation-conclusion p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Tablet Devices */
+@media screen and (max-width: 1024px) {
+  .motivation-header h1 {
+    font-size: 2.8rem;
+  }
+
+  .motivation-body h2 {
+    font-size: 2.2rem;
+  }
+
+  .motivation-body h3 {
+    font-size: 1.7rem;
+  }
+
+  .motivation-body p {
+    font-size: 1.1rem;
+  }
+
+  .motivation-conclusion h2 {
+    font-size: 2rem;
+  }
+
+  .motivation-conclusion p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Desktop and Larger Screens */
+@media screen and (min-width: 1025px) {
+  .motivation-header h1 {
+    font-size: 3.5rem;
+  }
+
+  .motivation-header p {
+    font-size: 1.3rem;
+  }
+
+  .motivation-body {
+    width: 70%;
+    padding: 40px;
+  }
+
+  .motivation-body h2 {
+    font-size: 2.5rem;
+  }
+
+  .motivation-body h3 {
+    font-size: 1.8rem;
+  }
+
+  .motivation-body p {
+    font-size: 1.2rem;
+  }
+
+  .motivation-conclusion h2 {
+    font-size: 2.2rem;
+  }
+
+  .motivation-conclusion p {
+    font-size: 1.3rem;
+  }
+}

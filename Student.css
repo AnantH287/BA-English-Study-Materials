@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #e9ecef;
+  font-size: 16px;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.user-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+  background: linear-gradient(135deg, #00bcd4, #004d40);
+}
+
+.profile-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px;
+  padding: 40px;
+  text-align: center;
+}
+
+.profile-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #00796b;
+  margin-bottom: 10px;
+}
+
+.profile-header p {
+  font-size: 18px;
+  color: #00796b;
+}
+
+/* Profile Picture Section */
+.profile-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.profile-picture {
+  margin-right: 20px;
+}
+
+.profile-picture img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #00bcd4;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.personal-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Activities Section */
+.activities-section {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.activities-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activities-section li {
+  margin-bottom: 15px;
+}
+
+.activities-section button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 10px 0;
+}
+
+.activities-section button:hover {
+  background-color: #004d40;
+  transform: translateY(-2px);
+}
+
+/* Logout Button */
+.logout-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c62828;
+  transform: translateY(-2px);
+}
+
+/* Error Message */
+.error-message {
+  background-color: #ff4081;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Loading Animation */
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading-container .ball {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: #00796b;
+  border-radius: 50%;
+  animation: wave 1.2s infinite ease-in-out;
+}
+
+.loading-container .ball:nth-child(1) {
+  animation-delay: 0s;
+}
+.loading-container .ball:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.loading-container .ball:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.loading-container .ball:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.loading-container .ball:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.loading-container .ball:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.loading-container .ball:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.loading-container .ball:nth-child(8) {
+  animation-delay: 0.7s;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .profile-container {
+    padding: 20px;
+  }
+
+  .profile-header h1 {
+    font-size: 24px;
+  }
+
+  .profile-header p {
+    font-size: 16px;
+  }
+
+  .profile-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-picture img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .personal-info p {
+    font-size: 16px;
+  }
+
+  .activities-section button {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+
+  .logout-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 30px;
+  }
+
+  .profile-header h1 {
+    font-size: 28px;
+  }
+
+  .profile-header p {
+    font-size: 17px;
+  }
+
+  .profile-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-picture img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .personal-info p {
+    font-size: 17px;
+  }
+
+  .activities-section button {
+    padding: 12px 20px;
+    font-size: 15px;
+    width: 200px;
+  }
+
+  .logout-btn {
+    padding: 12px 22px;
+    font-size: 15px;
+  }
+}

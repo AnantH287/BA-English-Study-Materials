@@ -1,0 +1,88 @@
+/* Styling the register container */
+.register-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header */
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Form labels */
+  .register-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  /* Form inputs */
+  .register-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .register-container input:focus {
+    outline: none;
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+  }
+  
+  /* Register button */
+  .register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-container button:hover {
+    background-color: #218838;
+  }
+  
+  /* Message styling */
+  .register-container p {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .register-container p.message {
+    font-size: 14px;
+    color: #d9534f;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Login link */
+  .register-container a {
+    color: #28a745;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-container a:hover {
+    text-decoration: underline;
+  }
+  

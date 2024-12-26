@@ -1,0 +1,399 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  margin-left: 200px; 
+}
+
+.video-player {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.button-group button {
+  padding: 12px 24px;
+  background-color: gray;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.button-group .active {
+  background-color: #0056b3;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Title Styling */
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Author Information */
+.author-info {
+  width: 95%;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.author-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.author-info h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Content Section */
+.content {
+  margin: 20px;
+  font-size: 18px;
+  color: #666;
+  text-align: justify;
+}
+
+/* Additional Sections */
+.literary-facts,
+.quote-of-the-day,
+.character-highlight,
+.poetic-style,
+.reflection {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.literary-facts:hover,
+.quote-of-the-day:hover,
+.character-highlight:hover,
+.poetic-style:hover,
+.reflection:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+p,
+ul li {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Image Cards Styling */
+.slade {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.slade img {
+  width: 23%; /* Adjust image width to fit 4 images in one row */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.slade img:hover {
+  transform: scale(1.05); 
+}
+@media screen and (max-width:1500px){
+  .video-player{
+   padding-left: 80px;
+  }
+   .container{
+     margin-left: 150px;
+   }
+   .author-info{
+     width: 85%;
+     margin-left: 100px;
+   }
+  .slade{
+    margin-left: 100px;
+  }
+   .summary{
+     margin-left: 100px;
+   }
+   .content{
+     margin-left: 100px;
+   }
+   .button-group button{
+     width: 30%;
+   }
+   .literary-facts,.quote-of-the-day,.character-highlight,.poetic-style,.poetic-style,.reflection{
+    margin-left: 100px;
+   }
+}
+@media screen and (max-width:900px){
+ .video-player{
+  padding-left: 30px;
+ }
+  .container{
+    margin-left: 150px;
+  }
+  .author-info{
+    width: 86%;
+    margin-left: 50px;
+  }
+  .slade{
+    width: 650px;
+    margin-left: 40px;
+  }
+  .summary{
+    margin-left: 35px;
+  }
+  .content{
+    margin-left: 45px;
+  }
+  .button-group button{
+    width: 40%;
+  }
+  .literary-facts,.quote-of-the-day,.character-highlight,.poetic-style,.poetic-style,.reflection{
+    margin-left: 40px;
+   }
+
+
+  
+}
+@media (max-width: 768px) {
+  .video-player{
+    margin-left: 0px;
+  }
+  .title{
+    margin-left: -10px;
+  }
+  .slade {
+    justify-content: center; 
+    width: 400px;
+    margin-left: 50px;
+
+  }
+
+  .slade img {
+    width: 190px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button-group button {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+  .summary{
+    margin-left: 30px;
+  }
+  .author-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+ 
+  }
+
+  .author-info img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .author-info h3 {
+    font-size: 16px;
+  }
+
+  .content {
+    font-size: 16px;
+    margin: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p,
+  ul li {
+    font-size: 14px;
+  }
+  .literary-facts,.quote-of-the-day,.reflection,.poetic-style,.character-highlight{
+    margin-left: 10px;
+  }
+}
+@media (max-width:650px){
+  .button-group button{
+        font-size: 10px;
+        margin-top: 10px;
+  }
+
+  .author-info{
+    width: 300px;
+    margin-left: 30px;
+
+  }
+  .slade img{
+    width: 300px;
+  }
+  .slade{
+    margin-left: -10px;
+  }
+
+}
+@media (max-width: 480px) {
+  .slade img {
+    width: 100%; /* Stack images in a single column */
+    margin-bottom: 15px;
+  }
+
+  .button-group button {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 20px;
+    margin: 15px;
+  }
+
+  .content {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p,
+  ul li {
+    font-size: 12px;
+  }
+}
+
+.bookmark-container {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.bookmark-symbol {
+  width: 50px;
+  height: 70px;
+  background-color: #007bff; /* Bookmark color */
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.bookmark-symbol:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.bookmark-symbol::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  height: 10px;
+  background-color: #ffffff; 
+  border-radius: 5px;
+}
+
+.test_your_knowledge {
+  position: fixed; /* Makes it stay visible while scrolling */
+  bottom: 20px; /* Position it at the bottom of the viewport */
+  right: 20px; /* Align it to the right side of the screen */
+  z-index: 1000; /* Ensures it stays on top of other elements */
+}
+
+.test_your_knowledge button {
+  background: linear-gradient(45deg, #ff6f61, #ffcc33); 
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); 
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: pulse 2s infinite;
+}
+
+.test_your_knowledge button:hover {
+  background: linear-gradient(45deg, #ffcc33, #ff6f61); 
+  transform: scale(1.1); 
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  }
+}
+ @media screen and (max-width:650px){
+  .test_your_knowledge button{
+    font-size: 10px;
+  }
+ }

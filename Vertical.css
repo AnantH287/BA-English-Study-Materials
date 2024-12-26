@@ -1,0 +1,217 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.vertical-navbar {
+    width: 10%;
+    height: 90vh;
+    background-color:rgb(192, 48, 192);
+    color: white;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    padding-left:10px;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 2px;
+    overflow-y: auto; 
+    display: inline-block;
+  }
+  
+  .navbar-title {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+  }
+  
+  .nav-heading {
+    margin: 4px 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav-heading:hover {
+    background-color: RGB(252, 110, 249);
+    transform: scale(1.05);
+    color: white;
+  }
+  
+  .dropdown-icon {
+    font-size: 10px;
+    color: #cccccc;
+  }
+  
+  .dropdown {
+    margin-top: 5px;
+    padding-left: 15px;
+    border-left: 3px solid white;
+  }
+  
+  .dropdown a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #b3b3ff;
+    font-size: 14px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 5px;
+  }
+  
+  .dropdown a:hover {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: RGB(252, 110, 249);
+    border-radius: 5px;
+    transform: scale(1.05);
+  }
+
+
+@media screen and (max-width:1500px){
+.vertical-navbar {   
+    width: 16%;
+    margin-top: -20px;
+    height: 100%;   
+}
+.navbar-title{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-logo{
+  margin-left: 60px;
+}
+.fortitlemargin{
+  margin-top: 20px;
+}
+
+.dropdown a{
+  margin-left: -10px;
+}
+.nav-heading{
+  font-size: 9px;
+    margin-top: 0px;
+    text-transform: lowercase;
+}
+.dropdown a {
+    font-size:10px;
+    padding: 5px;
+}
+@media screen and (max-width:1300px){
+  .nav-logo{
+    margin-left: 40px;
+  }
+  .fortitlemargin{
+    margin-top: 10px;
+  }
+  .navbar-title{
+      font-size: 9px;
+  }
+  .nav-heading{
+      font-size: 9px;
+  }
+  .dropdown a {
+      font-size: 9px;
+      margin-top: -4px;
+      margin-left: -10px;
+  }
+  .formargin{
+      margin-top: 30px;
+  }
+
+}
+}
+@media screen and  (max-width:950px){
+ .vertical-navbar{
+  width: 170px;
+ }
+  .navbar-title{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-heading{
+  font-size: 12px;
+    margin-top: 0px;
+    text-transform: lowercase;
+} 
+.nav-logo{
+  margin-left: 60px;
+}
+.fortitlemargin{
+  margin-top: 50px;
+}
+.formargin{
+  margin-top: 10px;
+}
+
+}
+@media screen and (max-width:900px){
+    .vertical-navbar{
+        width: 21%;
+    }
+    .nav-logo{
+      margin-left: 60px;
+    }
+    .fortitlemargin{
+      margin-top: 50px;
+    }
+    .formargin{
+      margin-top: 10px;
+  }
+
+    .navbar-title{
+        font-size: 9px;
+    }
+    .nav-heading{
+        font-size: 9px;
+    }
+    .dropdown{
+        padding: 10px;
+    }
+    .dropdown a{
+        padding-top: 1px;
+        font-size: 9px;
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .vertical-navbar{
+        width: 28%;
+    }
+    .nav-logo{
+      margin-left: 30px;
+    }
+    .fortitlemargin{
+      margin-top: 50px;
+    }
+    .navbar-title{
+        font-size: 9px;
+    }
+    .nav-heading{
+        font-size: 9px;
+    }
+    .dropdown a {
+        font-size: 9px;
+        margin-top: -4px;
+        margin-left: -10px;
+    }
+    .formargin{
+        margin-top: 30px;
+    }
+}

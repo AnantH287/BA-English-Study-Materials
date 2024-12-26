@@ -1,0 +1,149 @@
+/* Container for marks section */
+.marks-container {
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Title for the section */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grid container for marks cards */
+.marks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Styling for individual marks cards */
+.marks-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for marks cards */
+.marks-card:hover {
+    transform: translateY(-10px); /* Slight lift effect */
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Strong text for marks inside cards */
+.marks-card strong {
+    color: #333;
+}
+
+/* Styling for Go Back button */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the quote section */
+.quote-section {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Loading animation styles */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bouncing-balls {
+    display: flex;
+    gap: 5px;
+}
+
+.bouncing-balls div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #007bff;
+    animation: bounce 1.2s infinite ease-in-out;
+}
+
+.bouncing-balls div:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.bouncing-balls div:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.bouncing-balls div:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.bouncing-balls div:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.bouncing-balls div:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.bouncing-balls div:nth-child(6) {
+    animation-delay: 1s;
+}
+
+.bouncing-balls div:nth-child(7) {
+    animation-delay: 1.2s;
+}
+
+.bouncing-balls div:nth-child(8) {
+    animation-delay: 1.4s;
+}
+
+.bouncing-balls div:nth-child(9) {
+    animation-delay: 1.6s;
+}
+
+.bouncing-balls div:nth-child(10) {
+    animation-delay: 1.8s;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(0.6);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}

@@ -1,0 +1,86 @@
+/* General Styling for Admin Page */
+.adminpage {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .adminpage h1 {
+    text-align: center;
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Styling */
+  .adminpage form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .adminpage form label {
+    flex: 0 0 48%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #555555;
+    font-size: 14px;
+  }
+  
+  .adminpage form input[type="text"],
+  .adminpage form textarea,
+  .adminpage form input[type="file"] {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .adminpage textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .adminpage form input:focus,
+  .adminpage form textarea:focus {
+    border-color: #0066cc;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
+  }
+  
+  .adminpage button {
+    background-color: #0066cc;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+    margin-top: 20px;
+  }
+  
+  .adminpage button:hover {
+    background-color: #004a99;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .adminpage form label {
+      flex: 0 0 100%;
+    }
+  
+    .adminpage button {
+      width: 100%;
+    }
+  }
+  
