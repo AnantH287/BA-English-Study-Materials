@@ -74,7 +74,8 @@ The goal of this project is to provide BA English students with a comprehensive,
 
 ### 5. **Quiz Page**
 
-![Quiz Page](./screenshots/screenshot5.png)  
+![Quiz Page](./screenshots/screenshot![Screenshot (119)](https://github.com/user-attachments/assets/aac97db1-fdbd-41ba-9296-85b68d9eeeb8)
+5.png)  
 *Quiz Page - Interactive quizzes for each unit, designed to test students' understanding of the material and reinforce learning.*
 
 ---
